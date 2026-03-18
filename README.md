@@ -1,16 +1,78 @@
-# React + Vite
+# Go With Flow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and interactive React website that celebrates the philosophy of "going with the flow" - embracing life's natural rhythm and finding harmony in change.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive Flow Cards**: Click to update progress on different life flows
+- **Mindful Breathing Timer**: Guided breathing exercises with multiple patterns (4-7-8, Box Breathing, Calm Breathing)
+- **Animated Philosophy Display**: Auto-rotating inspirational messages about mindfulness and balance
+- **Dark/Light Mode Toggle**: Switch between themes with a smooth transition
+- **Responsive Design**: Looks great on all devices
+- **Modern UI**: Gradient backgrounds, smooth animations, and elegant typography
 
-## React Compiler
+## Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section**: Welcome message with call-to-action
+- **Data Flows**: Interactive progress tracking for different life aspects
+- **Mindful Breathing**: Guided breathing exercises with animated circle and timer
+- **Contact Page**: Contact form and information with social links
+- **Philosophy Cards**: Rotating display of mindfulness principles
+- **Navigation**: Smooth scrolling navigation menu
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Deploy to GitHub Pages
+
+The project is configured for GitHub Pages deployment:
+
+```bash
+npm run deploy
+```
+
+## Technologies Used
+
+- React 19
+- Vite
+- CSS Variables for theming
+- Modern CSS with gradients and animations
+- Responsive design principles
+
+## Philosophy
+
+This website embodies the concept of "going with the flow" through:
+- Natural, organic animations
+- Harmonious color schemes
+- Interactive elements that respond to user input
+- A design that flows and adapts
+
+Embrace the journey, find your balance, and let life guide you naturally.
+
+## 🎯 Interactive Features
+
+- **Click "Update Progress"** buttons to see progress bars animate
+- **Choose breathing patterns** and start guided breathing sessions
+- **Watch the breathing circle** expand and contract with your breath
+- **Fill out the contact form** to send messages and get in touch
+- **Toggle the theme** with the moon/sun button in the header
+- **Watch philosophy cards** automatically rotate every 4 seconds
+- **Navigate sections** using the header menu
+- **Hover over elements** to see smooth transitions
